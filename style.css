@@ -206,14 +206,18 @@ span {
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(163, 161, 161);
 }
 
 .box-image{
-    height: 300px;
+    height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 1px solid rgb(170, 164, 164);
 }
 
 .content-box{
@@ -222,7 +226,7 @@ span {
 }
 
 .content-box p{
-    color:#007185;
+    color:#0a9ad3;
 }
 
 .content-box p:hover{
