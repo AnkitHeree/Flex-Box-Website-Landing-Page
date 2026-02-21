@@ -68,7 +68,7 @@ margin-left: 3px;
 }
 
 .search-select{
-    background-color: #f3f3f3;
+    background-color: #d3e79c;
     width: 50px;
     text-align: center;
      border-top-left-radius: 4px;
@@ -80,6 +80,7 @@ margin-left: 3px;
     width: 100%;
     font-size: 1rem;
     border: none;
+   background: #d3e79c;
 }
 
 .search-icon{
@@ -159,4 +160,33 @@ color: rgb(255, 217, 0);
 
 .panel i{
 color: rgb(255, 217, 0);
+}
+
+/*Hero Section*/
+
+.hero-section{
+    height: 350px;
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    position: relative;
+    bottom: 15px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-message a{
+    color: #007185;
 }
