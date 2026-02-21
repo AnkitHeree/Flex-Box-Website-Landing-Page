@@ -188,7 +188,7 @@ span {
 }
 
 .hero-message a {
-    color: #007185;
+    color: #41a100;
 }
 
 /*shop section */
@@ -223,6 +223,10 @@ span {
 .content-box{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.content-box h2{
+    color: #4b5819;
 }
 
 .content-box p{
