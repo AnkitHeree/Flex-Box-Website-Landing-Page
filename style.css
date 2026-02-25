@@ -318,3 +318,115 @@ ul a {
 .copyright {
     padding-top: 5px;
 }
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .nav-logo {
+        width: 70px;
+        height: 40px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .add-first {
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+
+    .add-sec {
+        font-size: 0.7rem;
+    }
+
+    /* Search */
+    .nav-search {
+        width: 95%;
+        height: 35px;
+        margin-top: 5px;
+    }
+
+    .search-select {
+        width: 40px;
+        font-size: 0.6rem;
+    }
+
+    .search-input {
+        font-size: 0.7rem;
+    }
+
+    .search-icon {
+        width: 35px;
+        font-size: 1rem;
+    }
+
+    /* Panel */
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 5px;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .panel-ops {
+        width: 100%;
+        font-size: 0.65rem;
+    }
+
+    .panel-deals {
+        font-size: 0.7rem;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        height: 200px;
+        background-position: center;
+    }
+
+    .hero-message {
+        width: 95%;
+        font-size: 0.7rem;
+        height: 35px;
+    }
+
+    /* Shop Section */
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 95%;
+        height: auto;
+    }
+
+    .box-image {
+        height: 200px;
+    }
+
+    /* Footer */
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+        gap: 15px;
+    }
+
+    ul {
+        gap: 5px;
+    }
+
+    .foot-panel4 {
+        height: auto;
+        padding-bottom: 10px;
+    }
+}
